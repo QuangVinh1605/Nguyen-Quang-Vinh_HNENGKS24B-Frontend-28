@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const company={
+            name: `Rikkeisoft`,
+            location:`Ha Noi`,
+            employees: [
+                {name:`Nguyen van luan`,position:`developer`},
+                {name:`Nguyen Van Hoang`,position:`tester`},
+                {name:`Hoang Nam Cao`,position:`Manager`}
+            ]
+        };
+        console.log(company.name);
+        console.log(company.employees.forEach((employee)=>{
+            console.log(employee.name);
+            console.log(employee.position);
+        }));
+        
+    </script>
+</body>
+</html>
